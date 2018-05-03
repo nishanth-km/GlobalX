@@ -9,3 +9,13 @@
 /Users/micky/Projects/GlobalX/GlobalX/obj/Debug/netcoreapp2.0/GlobalX.AssemblyInfo.cs
 /Users/micky/Projects/GlobalX/GlobalX/obj/Debug/netcoreapp2.0/GlobalX.dll
 /Users/micky/Projects/GlobalX/GlobalX/obj/Debug/netcoreapp2.0/GlobalX.pdb
+C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalX\obj\Debug\netcoreapp2.0\GlobalX.csproj.CoreCompileInputs.cache
+C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalX\obj\Debug\netcoreapp2.0\GlobalX.AssemblyInfoInputs.cache
+C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalX\obj\Debug\netcoreapp2.0\GlobalX.AssemblyInfo.cs
+C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalX\obj\Debug\netcoreapp2.0\GlobalX.dll
+C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalX\obj\Debug\netcoreapp2.0\GlobalX.pdb
+C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalX\bin\Debug\netcoreapp2.0\GlobalX.deps.json
+C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalX\bin\Debug\netcoreapp2.0\GlobalX.runtimeconfig.json
+C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalX\bin\Debug\netcoreapp2.0\GlobalX.runtimeconfig.dev.json
+C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalX\bin\Debug\netcoreapp2.0\GlobalX.dll
+C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalX\bin\Debug\netcoreapp2.0\GlobalX.pdb

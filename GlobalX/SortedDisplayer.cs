@@ -36,7 +36,7 @@ namespace GlobalX
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Error while writing into line - incorrect path or no permission.")
+                Console.WriteLine("Error while writing into file - incorrect path or no permission.");
             }
         }
     }

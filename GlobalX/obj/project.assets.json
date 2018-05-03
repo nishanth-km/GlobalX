@@ -664,28 +664,30 @@
     ]
   },
   "packageFolders": {
-    "/Users/micky/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Smaugy\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/micky/Projects/GlobalX/GlobalX/GlobalX.csproj",
+      "projectUniqueName": "C:\\Users\\Smaugy\\Documents\\GitHub\\GlobalX\\GlobalX\\GlobalX.csproj",
       "projectName": "GlobalX",
-      "projectPath": "/Users/micky/Projects/GlobalX/GlobalX/GlobalX.csproj",
-      "packagesPath": "/Users/micky/.nuget/packages/",
-      "outputPath": "/Users/micky/Projects/GlobalX/GlobalX/obj",
+      "projectPath": "C:\\Users\\Smaugy\\Documents\\GitHub\\GlobalX\\GlobalX\\GlobalX.csproj",
+      "packagesPath": "C:\\Users\\Smaugy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Smaugy\\Documents\\GitHub\\GlobalX\\GlobalX\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/micky/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Smaugy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -703,9 +705,8 @@
       "netcoreapp2.0": {
         "dependencies": {
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
-            "version": "2.0",
+            "version": "[2.0.0, )",
             "autoReferenced": true
           }
         },
