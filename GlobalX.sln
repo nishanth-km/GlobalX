@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalX", "GlobalX\GlobalX.csproj", "{048F75D5-5514-40AA-81FF-E66FB86F8CDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalXTest", "GlobalXTest\GlobalXTest.csproj", "{0070E35F-EC0D-4479-B93F-6DEB8C4075BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{048F75D5-5514-40AA-81FF-E66FB86F8CDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{048F75D5-5514-40AA-81FF-E66FB86F8CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{048F75D5-5514-40AA-81FF-E66FB86F8CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{048F75D5-5514-40AA-81FF-E66FB86F8CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0070E35F-EC0D-4479-B93F-6DEB8C4075BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0070E35F-EC0D-4479-B93F-6DEB8C4075BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0070E35F-EC0D-4479-B93F-6DEB8C4075BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0070E35F-EC0D-4479-B93F-6DEB8C4075BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

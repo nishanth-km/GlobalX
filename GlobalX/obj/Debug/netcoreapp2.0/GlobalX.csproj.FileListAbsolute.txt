@@ -1,0 +1,11 @@
+/Users/micky/Projects/GlobalX/GlobalX/bin/Debug/netcoreapp2.0/GlobalX.deps.json
+/Users/micky/Projects/GlobalX/GlobalX/bin/Debug/netcoreapp2.0/GlobalX.runtimeconfig.json
+/Users/micky/Projects/GlobalX/GlobalX/bin/Debug/netcoreapp2.0/GlobalX.runtimeconfig.dev.json
+/Users/micky/Projects/GlobalX/GlobalX/bin/Debug/netcoreapp2.0/GlobalX.dll
+/Users/micky/Projects/GlobalX/GlobalX/bin/Debug/netcoreapp2.0/GlobalX.pdb
+/Users/micky/Projects/GlobalX/GlobalX/obj/Debug/netcoreapp2.0/GlobalX.csprojResolveAssemblyReference.cache
+/Users/micky/Projects/GlobalX/GlobalX/obj/Debug/netcoreapp2.0/GlobalX.csproj.CoreCompileInputs.cache
+/Users/micky/Projects/GlobalX/GlobalX/obj/Debug/netcoreapp2.0/GlobalX.AssemblyInfoInputs.cache
+/Users/micky/Projects/GlobalX/GlobalX/obj/Debug/netcoreapp2.0/GlobalX.AssemblyInfo.cs
+/Users/micky/Projects/GlobalX/GlobalX/obj/Debug/netcoreapp2.0/GlobalX.dll
+/Users/micky/Projects/GlobalX/GlobalX/obj/Debug/netcoreapp2.0/GlobalX.pdb

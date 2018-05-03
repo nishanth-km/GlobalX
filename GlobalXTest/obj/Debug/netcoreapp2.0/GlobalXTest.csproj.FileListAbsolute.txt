@@ -1,0 +1,16 @@
+/Users/micky/Projects/GlobalX/GlobalXTest/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/micky/Projects/GlobalX/GlobalXTest/bin/Debug/netcoreapp2.0/xunit.runner.utility.netstandard15.dll
+/Users/micky/Projects/GlobalX/GlobalXTest/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netstandard15.dll
+/Users/micky/Projects/GlobalX/GlobalXTest/bin/Debug/netcoreapp2.0/GlobalXTest.deps.json
+/Users/micky/Projects/GlobalX/GlobalXTest/bin/Debug/netcoreapp2.0/GlobalXTest.runtimeconfig.json
+/Users/micky/Projects/GlobalX/GlobalXTest/bin/Debug/netcoreapp2.0/GlobalXTest.runtimeconfig.dev.json
+/Users/micky/Projects/GlobalX/GlobalXTest/bin/Debug/netcoreapp2.0/GlobalXTest.dll
+/Users/micky/Projects/GlobalX/GlobalXTest/bin/Debug/netcoreapp2.0/GlobalXTest.pdb
+/Users/micky/Projects/GlobalX/GlobalXTest/bin/Debug/netcoreapp2.0/GlobalX.dll
+/Users/micky/Projects/GlobalX/GlobalXTest/bin/Debug/netcoreapp2.0/GlobalX.pdb
+/Users/micky/Projects/GlobalX/GlobalXTest/obj/Debug/netcoreapp2.0/GlobalXTest.csproj.CoreCompileInputs.cache
+/Users/micky/Projects/GlobalX/GlobalXTest/obj/Debug/netcoreapp2.0/GlobalXTest.AssemblyInfoInputs.cache
+/Users/micky/Projects/GlobalX/GlobalXTest/obj/Debug/netcoreapp2.0/GlobalXTest.AssemblyInfo.cs
+/Users/micky/Projects/GlobalX/GlobalXTest/obj/Debug/netcoreapp2.0/GlobalXTest.dll
+/Users/micky/Projects/GlobalX/GlobalXTest/obj/Debug/netcoreapp2.0/GlobalXTest.pdb
+/Users/micky/Projects/GlobalX/GlobalXTest/obj/Debug/netcoreapp2.0/GlobalXTest.csprojResolveAssemblyReference.cache

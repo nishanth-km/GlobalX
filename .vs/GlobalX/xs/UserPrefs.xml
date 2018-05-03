@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{048F75D5-5514-40AA-81FF-E66FB86F8CDF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GlobalX/InputReader.cs">
+    <Files>
+      <File FileName="GlobalX/Program.cs" Line="36" Column="1" />
+      <File FileName="GlobalX/SortedDisplayer.cs" Line="22" Column="13" />
+      <File FileName="GlobalX/InputReader.cs" Line="111" Column="76" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="GlobalX" expanded="True">
+            <Node name="GlobalXTest" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/micky/Projects/GlobalX/GlobalXTest/UnitTest1.cs" relfile="GlobalXTest/UnitTest1.cs" line="12" column="1" />
+      <Breakpoint file="/Users/micky/Projects/GlobalX/GlobalX/Program.cs" relfile="GlobalX/Program.cs" line="36" column="1" />
+      <Breakpoint file="/Users/micky/Projects/GlobalX/GlobalX/SortedDisplayer.cs" relfile="GlobalX/SortedDisplayer.cs" line="23" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.GlobalX PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
