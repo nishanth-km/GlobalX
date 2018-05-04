@@ -31,7 +31,7 @@ namespace GlobalX
             try
             {
 
-                path = "/Users/micky/Desktop/sorted-names-list.txt";
+                path = "C:\\Users\\Smaugy\\Desktop\\sorted-names-list.txt";
                 System.IO.File.WriteAllLines(path, FullNamesList.ToArray());
             }
             catch (Exception ex)

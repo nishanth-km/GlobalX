@@ -19,3 +19,4 @@ C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalX\bin\Debug\netcoreapp2.0\GlobalX
 C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalX\bin\Debug\netcoreapp2.0\GlobalX.runtimeconfig.dev.json
 C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalX\bin\Debug\netcoreapp2.0\GlobalX.dll
 C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalX\bin\Debug\netcoreapp2.0\GlobalX.pdb
+C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalX\obj\Debug\netcoreapp2.0\GlobalX.csprojResolveAssemblyReference.cache

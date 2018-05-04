@@ -126,7 +126,7 @@ namespace GlobalX
             {
                 PersonName person = new PersonName();
                 string[] allnames = fullname.Split(' ');
-                if (allnames.Length > 1)
+                if (allnames.Length > 1 && allnames.Length <= 4)
                 {
                     person.LastName = allnames[0];
                     for (int i = 1; i < allnames.Length; i++)
@@ -134,9 +134,52 @@ namespace GlobalX
                         person.GivenName.Add(allnames[i]);
                     }
                 }
-                else if (allnames.Length == 1)
+                else // Skip lines where there is either only last name or more than 3 given names.
+                    continue;
+                PeopleNames.Add(person);
+            }
+            return PeopleNames;
+        }
+    }
+
+    public class ConsoleFileLocationInputReaderTest : IConsoleInputReader
+    {
+        public List<PersonName> InputPeopleNames()
+        {
+            string path = "C:\\Users\\Smaugy\\Desktop\\unsorted-names-list.txt"; // For test just enter location hard coded..
+            List<string> Names;
+            List<PersonName> PeopleNames = new List<PersonName>();
+            while (true)
+            {
+                try
+                {
+                    string[] FileText = System.IO.File.ReadAllLines(@path);
+                    Names = new List<string>(FileText);
+                    if (Names != null || path.ToLower() == "exit")
+                        break;
+                    else
+                        throw new Exception();
+                }
+                catch (Exception ex)
+                {
+                    //unable to open the file. Maybe permissions or invalid path.
+                    Console.WriteLine("Unable to open file in given path. Check path and permissions again. Enter 'exit' to quit the program.");
+                    path = Console.ReadLine();
+                }
+            }
+            foreach (string fullname in Names)
+            {
+                PersonName person = new PersonName();
+                string[] allnames = fullname.Split(' ');
+                if (allnames.Length > 1 && allnames.Length <= 4)
+                {
                     person.LastName = allnames[0];
-                else
+                    for (int i = 1; i < allnames.Length; i++)
+                    {
+                        person.GivenName.Add(allnames[i]);
+                    }
+                }
+                else // Skip lines where there is either only last name or more than 3 given names.
                     continue;
                 PeopleNames.Add(person);
             }

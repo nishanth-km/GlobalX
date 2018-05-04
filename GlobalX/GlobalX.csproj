@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="InputReader.cs~RF30cae9d.TMP" />
+  </ItemGroup>
+
 </Project>
