@@ -21,12 +21,6 @@ namespace GlobalX
         {
             // this will do both console output and add into a file
             List<string> FullNamesList = new List<string>();
-            foreach (PersonName pn in SortedPersonNames)
-            {
-                String FullName = pn.LastName + " " + String.Join(" ", pn.GivenName);
-                Console.WriteLine(FullName);
-                FullNamesList.Add(FullName);
-            }
             string path = "";
             try
             {
@@ -38,6 +32,13 @@ namespace GlobalX
             {
                 Console.WriteLine("Error while writing into file - incorrect path or no permission.");
             }
+            foreach (PersonName pn in SortedPersonNames)
+            {
+                String FullName = pn.LastName + " " + String.Join(" ", pn.GivenName);
+                Console.WriteLine(FullName);
+                FullNamesList.Add(FullName);
+            }
+            Console.ReadKey();
         }
     }
 }

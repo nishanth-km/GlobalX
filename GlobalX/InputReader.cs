@@ -100,7 +100,7 @@ namespace GlobalX
     {
         public List<PersonName> InputPeopleNames()
         {
-            Console.WriteLine("Enter the location where the file is located along with the filename and extension. Eg:- ");
+            Console.WriteLine("Enter the location where the file is located along with the filename and extension.");
             string path = Console.ReadLine();
             List<string> Names;
             List<PersonName> PeopleNames = new List<PersonName>();
