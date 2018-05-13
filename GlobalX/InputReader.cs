@@ -94,6 +94,11 @@ namespace GlobalX
             return !match.Success;
 
         }
+
+        public INameSorter SortOrderType()
+        {
+            throw new NotImplementedException();
+        }
     }
 
     public class ConsoleFileLocationInputReader : IConsoleInputReader
@@ -140,50 +145,46 @@ namespace GlobalX
             }
             return PeopleNames;
         }
-    }
 
-    public class ConsoleFileLocationInputReaderTest : IConsoleInputReader
-    {
-        public List<PersonName> InputPeopleNames()
+        public Dictionary<int, string> SortType = new Dictionary<int, string>()
         {
-            string path = "C:\\Users\\Smaugy\\Desktop\\unsorted-names-list.txt"; // For test just enter location hard coded..
-            List<string> Names;
-            List<PersonName> PeopleNames = new List<PersonName>();
+            {1,"Sort Last Name Ascending First, Given Names Ascending next."},
+            {2,"Sort only on Last Name Descending."}
+        };
+
+        public INameSorter SortOrderType()
+        {
+            INameSorter nameSorter;
             while (true)
             {
-                try
+                Console.WriteLine("Enter number for type of Sort that needs to be performed");
+                foreach (KeyValuePair<int, string> sortvalue in SortType)
                 {
-                    string[] FileText = System.IO.File.ReadAllLines(@path);
-                    Names = new List<string>(FileText);
-                    if (Names != null || path.ToLower() == "exit")
-                        break;
-                    else
-                        throw new Exception();
+                    Console.WriteLine(sortvalue.Key + " " + sortvalue.Value);
                 }
-                catch (Exception ex)
+                string InputKey = Console.ReadLine();
+                if (!SortType.ContainsKey(Convert.ToInt32(InputKey)))
+                    Console.WriteLine("Enter just the number from the menu.");
+                else
                 {
-                    //unable to open the file. Maybe permissions or invalid path.
-                    Console.WriteLine("Unable to open file in given path. Check path and permissions again. Enter 'exit' to quit the program.");
-                    path = Console.ReadLine();
-                }
-            }
-            foreach (string fullname in Names)
-            {
-                PersonName person = new PersonName();
-                string[] allnames = fullname.Split(' ');
-                if (allnames.Length > 1 && allnames.Length <= 4)
-                {
-                    person.LastName = allnames[0];
-                    for (int i = 1; i < allnames.Length; i++)
+                    switch (Convert.ToInt32(InputKey))
                     {
-                        person.GivenName.Add(allnames[i]);
+                        case 1:
+                            nameSorter = new NameSorterAsc_LastNameGivenNames();
+                            break;
+                        case 2:
+                            nameSorter = new NameSorterDesc_LastName();
+                            break;
+                        default:
+                            nameSorter = new NameSorterAsc_LastNameGivenNames();
+                            break;
                     }
+                    break;
                 }
-                else // Skip lines where there is either only last name or more than 3 given names.
-                    continue;
-                PeopleNames.Add(person);
             }
-            return PeopleNames;
+            return nameSorter;
         }
     }
+
+    
 }

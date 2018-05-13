@@ -9,7 +9,7 @@ namespace GlobalX
     {
         static void Main(string[] args)
         {
-            NameSorterProgram sorterProgram = new NameSorterProgram(new NameSorter_Linq(), new ConsoleFileLocationInputReader(), new FileOutput());
+            NameSorterProgram sorterProgram = new NameSorterProgram(new ConsoleFileLocationInputReader(), new FileOutput());
             sorterProgram.RunProgram();
         }
     }
@@ -22,9 +22,8 @@ namespace GlobalX
 
         List<PersonName> personNames;
 
-        public NameSorterProgram(INameSorter nameSorter, IConsoleInputReader consoleInputReader, IConsoleOutput consoleOutput)
+        public NameSorterProgram(IConsoleInputReader consoleInputReader, IConsoleOutput consoleOutput)
         {
-            _nameSorter = nameSorter;
             _consoleInputReader = consoleInputReader;
             _consoleOutput = consoleOutput;
         }
@@ -32,6 +31,7 @@ namespace GlobalX
         public void RunProgram()
         {
             personNames = _consoleInputReader.InputPeopleNames();
+            _nameSorter = _consoleInputReader.SortOrderType();
             List<PersonName> sortedNames = _nameSorter.SortNames(personNames);
             _consoleOutput.ShowSortedList(sortedNames);
         }
@@ -53,37 +53,27 @@ namespace GlobalX
         }
     }
 
-    public class NameSorter_Linq : INameSorter
+    public class NameSorterAsc_LastNameGivenNames : INameSorter
     {
         public List<PersonName> SortNames(List<PersonName> personNames)
         {
             List<PersonName> sortedPersonNames = new List<PersonName>();
-            List<string> LastNames = new List<string>();
-            List<List<string>> GivenNames = new List<List<string>>();
-            foreach(PersonName pn in personNames)
-            {
-                LastNames.Add(pn.LastName);
-                GivenNames.Add(pn.GivenName);
-            }
-            LastNames.Sort();
 
-            foreach (string lastname in LastNames.Distinct())
-            {
-                GivenNames = personNames.Where(p => p.LastName == lastname).Select(pn => pn.GivenName).ToList();
-                GivenNames = GivenNames.OrderBy(p => String.Join(", ", p)).ToList();
-                foreach(List<string> givenname in GivenNames)
-                {
-                    PersonName personName = new PersonName();
-                    personName.GivenName = givenname;
-                    personName.LastName = lastname;
-                    sortedPersonNames.Add(personName);
-                }
-            }
-
+            sortedPersonNames = personNames.OrderBy(png => string.Join(",", png.GivenName)).OrderBy(pn => pn.LastName).ToList();
 
             return sortedPersonNames;
         }
     }
+    public class NameSorterDesc_LastName : INameSorter
+    {
+        public List<PersonName> SortNames(List<PersonName> personNames)
+        {
+            List<PersonName> sortedPersonNames = new List<PersonName>();
 
+            sortedPersonNames = personNames.OrderByDescending(pn => pn.LastName).ToList();
+
+            return sortedPersonNames;
+        }
+    }
 
 }

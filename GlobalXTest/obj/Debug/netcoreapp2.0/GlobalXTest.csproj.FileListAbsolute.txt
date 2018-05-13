@@ -14,6 +14,13 @@
 /Users/micky/Projects/GlobalX/GlobalXTest/obj/Debug/netcoreapp2.0/GlobalXTest.dll
 /Users/micky/Projects/GlobalX/GlobalXTest/obj/Debug/netcoreapp2.0/GlobalXTest.pdb
 /Users/micky/Projects/GlobalX/GlobalXTest/obj/Debug/netcoreapp2.0/GlobalXTest.csprojResolveAssemblyReference.cache
+C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalXTest\obj\Debug\netcoreapp2.0\GlobalXTest.csproj.CoreCompileInputs.cache
+C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalXTest\obj\Debug\netcoreapp2.0\GlobalXTest.AssemblyInfoInputs.cache
+C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalXTest\obj\Debug\netcoreapp2.0\GlobalXTest.AssemblyInfo.cs
+C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalXTest\obj\Debug\netcoreapp2.0\GlobalXTest.csprojResolveAssemblyReference.cache
+C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalXTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalXTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalXTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalXTest\bin\Debug\netcoreapp2.0\GlobalXTest.deps.json
 C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalXTest\bin\Debug\netcoreapp2.0\GlobalXTest.runtimeconfig.json
 C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalXTest\bin\Debug\netcoreapp2.0\GlobalXTest.runtimeconfig.dev.json
@@ -21,13 +28,6 @@ C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalXTest\bin\Debug\netcoreapp2.0\Glo
 C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalXTest\bin\Debug\netcoreapp2.0\GlobalXTest.pdb
 C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalXTest\bin\Debug\netcoreapp2.0\GlobalX.dll
 C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalXTest\bin\Debug\netcoreapp2.0\GlobalX.pdb
-C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalXTest\obj\Debug\netcoreapp2.0\GlobalXTest.csprojResolveAssemblyReference.cache
-C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalXTest\obj\Debug\netcoreapp2.0\GlobalXTest.csproj.CoreCompileInputs.cache
-C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalXTest\obj\Debug\netcoreapp2.0\GlobalXTest.AssemblyInfoInputs.cache
-C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalXTest\obj\Debug\netcoreapp2.0\GlobalXTest.AssemblyInfo.cs
 C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalXTest\obj\Debug\netcoreapp2.0\GlobalXTest.csproj.CopyComplete
 C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalXTest\obj\Debug\netcoreapp2.0\GlobalXTest.dll
 C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalXTest\obj\Debug\netcoreapp2.0\GlobalXTest.pdb
-C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalXTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalXTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-C:\Users\Smaugy\Documents\GitHub\GlobalX\GlobalXTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
